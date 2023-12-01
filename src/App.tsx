@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { useState } from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Project from "./pages/Project";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
+import Skills from "./pages/Skills";
+import Header from "./components/Header";
+export default function Main() {
+  const [showMenuBar, setShowMenuBar] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
+      <div className="sm:px-4 md:px-12 lg:px-40 px-3">
+        <Home showMenuBar={showMenuBar} setShoMenu={setShowMenuBar} />
+        <About showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
+        <Skills showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
+        <Project showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
+        <Contact showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
+        <Footer />
+      </div>
+    </>
   );
 }
-
-export default App;
