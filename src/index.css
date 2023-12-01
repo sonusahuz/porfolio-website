@@ -40,7 +40,6 @@ body {
   border: 1.8px solid rgb(133, 76, 230);
   border-radius: 20px;
   color: rgb(133, 76, 230);
-
   cursor: pointer;
   font-weight: 500;
   text-decoration: none;
@@ -68,8 +67,8 @@ p {
   text-decoration: none;
   background: -webkit-linear-gradient(
     225deg,
-    rgb(132, 0, 255) 0%,
-    rgb(230, 0, 255) 100%
+    rgb(230, 0, 255) 0,
+    rgb(132, 0, 255) 100%
   );
   font-size: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -112,4 +111,8 @@ p {
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.75);
+}
+
+.sonu {
+  border-radius: 50%;
 }

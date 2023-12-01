@@ -20,7 +20,7 @@ export default function Home({ showMenuBar }: any) {
         </h1>
         <p className=" text-[16px] lg:text-xl md:leading-9 leading-6 sm:[400px] lg:w-[700px] mt-4">
           I'm Web Designer &{" "}
-          <span className="sonu font-bold">Front-End Developer </span>
+          <span className="sonu font-medium">Front-End Developer </span>
           focused on crafting clean & user-friendly experiences, i am passionate
           about building excellent software that improves the lives of those
           around me.

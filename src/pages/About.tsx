@@ -11,7 +11,7 @@ export default function About({ showMenuBar, setShowMenuBar }: any) {
           About Me.
         </h1>
         <p className="py-2 lg:leading-9 leading-7 tracking-normal text-[18px]">
-          Hello! I'm <strong className="sonu">Sonu Sahu</strong>, and I'm
+          Hello! I'm <span className="sonu font-medium">Sonu Sahu</span> and I'm
           passionate about making a difference in people's lives through my
           creative projects. My fascination with programming began during my
           early college days. As I delved deeper into the world of technology, I
