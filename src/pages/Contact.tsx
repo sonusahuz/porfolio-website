@@ -33,10 +33,10 @@ export default function Contact({ showMenuBar }: any) {
         showMenuBar ? "blur-sm" : ""
       } `}
     >
-      <div className="lg:w-[70%] about lg:px-10 py-12 lg:h-[550px] h-auto mt-20 lg:mt-14">
+      <div className="lg:w-[70%] about lg:px-10 py-12 lg:h-[550px] h-auto mt-20 lg:mt-20">
         <div className="text-center">
           <h1 className="font-extrabold sm:text-4xl text-3xl">Contact.</h1>
-          <p className=" py-4 leading-7 text-[18px] px-4">
+          <p className=" py-4 leading-7 lg:text-[18px] text-[16px] px-4">
             Feel free to reach out to me for any questions or opportunities!
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function Contact({ showMenuBar }: any) {
             required
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
-            className="md:w-[600px] w-[300px] p-4 rounded bg-black text-white border-none"
+            className="md:w-[530px] w-[300px] xl:w-[600px] p-4 rounded bg-black text-white border-none"
           />
           <input
             type="email"
@@ -58,16 +58,16 @@ export default function Contact({ showMenuBar }: any) {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="md:w-[600px] w-[300px] p-4 rounded bg-black text-white border-none"
+            className="md:w-[530px] w-[300px] xl:w-[600px] p-4 rounded bg-black text-white border-none"
           />
           <textarea
             placeholder="Write your message..."
             required
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="md:w-[600px] w-[300px] p-4 rounded bg-black text-white border-none"
+            className="md:w-[530px] w-[300px]  xl:w-[600px] p-4 rounded bg-black text-white border-none"
           />
-          <button className="px-2 p-4 w-[300px] touch rounded text-sm md:w-[600px]">
+          <button className="px-2 p-4 w-[300px]  xl:w-[600px] touch rounded text-sm md:w-[530px]">
             Send
           </button>
         </form>

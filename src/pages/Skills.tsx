@@ -53,12 +53,12 @@ export default function Skills({ showMenuBar, setShowMenuBar }: any) {
         showMenuBar ? "blur-sm" : ""
       } mb-12`}
     >
-      <div className="lg:w-[70%] about py-8 px-2 p-2 lg:p-20 lg:h-[480px] h-auto mt-20 lg:mt-10">
+      <div className="lg:w-[70%] about py-8 px-2 p-2 lg:p-20  h-auto mt-20 lg:mt-10">
         <div>
           <h1 className="font-extrabold text-3xl mb-4 lg:text-5xl text-center">
             Skills.
           </h1>
-          <p className="text-center text-[18px] mb-4">
+          <p className="text-center lg:text-[18px] text-[16px] mb-4">
             Here are a few technologies I've been working with recent.{" "}
           </p>
         </div>

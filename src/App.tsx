@@ -8,10 +8,17 @@ import Skills from "./pages/Skills";
 import Header from "./components/Header";
 export default function Main() {
   const [showMenuBar, setShowMenuBar] = useState(false);
+  const handlerClose = () => {
+    setShowMenuBar(false);
+  };
   return (
     <>
-      <Header showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
-      <div className="sm:px-4 md:px-12 lg:px-40 px-3">
+      <Header
+        showMenuBar={showMenuBar}
+        setShowMenuBar={setShowMenuBar}
+        onClose={handlerClose}
+      />
+      <div className="sm:px-4 lg:px-12 px-3 xl:px-40">
         <Home showMenuBar={showMenuBar} setShoMenu={setShowMenuBar} />
         <About showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
         <Skills showMenuBar={showMenuBar} setShowMenuBar={setShowMenuBar} />
