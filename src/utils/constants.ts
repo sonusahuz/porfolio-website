@@ -8,7 +8,7 @@ export const project = [
   },
   {
     id: "2",
-    project_name: "Movie Streaming Platform",
+    project_name: "MoviesHub",
     image: "/netflix.png",
     url: "https://netflix-peach-five.vercel.app",
     code_url: "https://github.com/sonusahuz/netflix",
