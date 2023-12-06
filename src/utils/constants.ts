@@ -8,14 +8,14 @@ export const project = [
   },
   {
     id: "2",
-    project_name: "MovieHub: Movies & Web Series",
+    project_name: "Movie Streaming Platform",
     image: "/netflix.png",
     url: "https://netflix-peach-five.vercel.app",
     code_url: "https://github.com/sonusahuz/netflix",
   },
   {
     id: "3",
-    project_name: "MaxTube: Movies & TV Shows",
+    project_name: "MaxTube",
     image: "/youtube.png",
     url: "https://complete-youtube-clone.vercel.app",
     code_url: "https://github.com/sonusahuz/complete-youtube-clone",
