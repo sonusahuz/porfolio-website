@@ -1,7 +1,7 @@
 export const project = [
   {
     id: "1",
-    project_name: "Instagram",
+    project_name: "Social Media Website",
     image: "/thread.png",
     url: "https://threads-sonusahu.vercel.app",
     code_url: "https://github.com/sonusahuz/threads",
@@ -22,7 +22,7 @@ export const project = [
   },
   {
     id: "4",
-    project_name: "E-Commerce website",
+    project_name: "E-Commerce Website",
     image: "/ecommerce.png",
     url: "https://e-commerce-sonusahu.vercel.app",
     code_url: "https://github.com/sonusahuz/e-commerce",
@@ -36,7 +36,7 @@ export const project = [
   },
   {
     id: "6",
-    project_name: "E-Commerce website",
+    project_name: "E-Commerce Website",
     image: "/e-commerce2.png",
     url: "https://sonusahuz.github.io/shopping-website",
     code_url: "https://github.com/sonusahuz/shopping-website",
