@@ -1,6 +1,7 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { FaGithub } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
 import {
   BiLogoJavascript,
   BiLogoNodejs,
@@ -19,28 +20,33 @@ const skills = [
     icons: <DiCss3 size={26} className=" text-blue-600" />,
     name: "CSS",
   },
-  {
+    {
     id: "3",
+    icons: <SiTailwindcss size={26} className="text-[#3b82f680]" />,
+    name: "Tailwind CSS",
+  },
+  {
+    id: "4",
     icons: <BiLogoJavascript size={26} className=" text-yellow-600" />,
     name: "Javascript",
   },
   {
-    id: "4",
+    id: "5",
     icons: <BiLogoTypescript size={26} className=" text-blue-500" />,
     name: "Typescript",
   },
   {
-    id: "5",
+    id: "6",
     icons: <BiLogoReact size={26} className=" text-blue-500" />,
     name: "React Js",
   },
   {
-    id: "6",
+    id: "7",
     icons: <BiLogoNodejs size={26} className=" text-green-800" />,
     name: "Node Js",
   },
   {
-    id: "7",
+    id: "8",
     icons: <FaGithub size={26} />,
     name: "Git & GitHub",
   },
