@@ -8,21 +8,21 @@ export const project = [
   },
   {
     id: "2",
-    project_name: "Netflix",
+    project_name: "MovieHub: Movies & Web Series",
     image: "/netflix.png",
     url: "https://netflix-peach-five.vercel.app",
     code_url: "https://github.com/sonusahuz/netflix",
   },
   {
     id: "3",
-    project_name: "Youtube",
+    project_name: "MaxTube: Movies & TV Shows",
     image: "/youtube.png",
     url: "https://complete-youtube-clone.vercel.app",
     code_url: "https://github.com/sonusahuz/complete-youtube-clone",
   },
   {
     id: "4",
-    project_name: "E-Commerce",
+    project_name: "E-Commerce website",
     image: "/ecommerce.png",
     url: "https://e-commerce-sonusahu.vercel.app",
     code_url: "https://github.com/sonusahuz/e-commerce",
@@ -36,7 +36,7 @@ export const project = [
   },
   {
     id: "6",
-    project_name: "E-Commerce ",
+    project_name: "E-Commerce website",
     image: "/e-commerce2.png",
     url: "https://sonusahuz.github.io/shopping-website",
     code_url: "https://github.com/sonusahuz/shopping-website",
