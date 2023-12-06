@@ -1,23 +1,23 @@
 export const project = [
   {
     id: "1",
-    project_name: "threads Clone",
+    project_name: "Instagram",
     image: "/thread.png",
-    url: "https://threads-sonusahu.vercel.app/login",
+    url: "https://threads-sonusahu.vercel.app",
     code_url: "https://github.com/sonusahuz/threads",
   },
   {
     id: "2",
-    project_name: "Netflix Clone",
+    project_name: "Netflix",
     image: "/netflix.png",
-    url: "https://netflix-peach-five.vercel.app/",
+    url: "https://netflix-peach-five.vercel.app",
     code_url: "https://github.com/sonusahuz/netflix",
   },
   {
     id: "3",
-    project_name: "Youtube Clone",
+    project_name: "Youtube",
     image: "/youtube.png",
-    url: "https://complete-youtube-clone.vercel.app/",
+    url: "https://complete-youtube-clone.vercel.app",
     code_url: "https://github.com/sonusahuz/complete-youtube-clone",
   },
   {
@@ -31,14 +31,14 @@ export const project = [
     id: "5",
     project_name: "Resume Builder",
     image: "/resume.png",
-    url: "https://resume-builder-sonusahu.vercel.app/",
+    url: "https://resume-builder-sonusahu.vercel.app",
     code_url: "https://github.com/sonusahuz/resume-builder",
   },
   {
     id: "6",
     project_name: "E-Commerce ",
     image: "/e-commerce2.png",
-    url: "https://sonusahuz.github.io/shopping-website/",
+    url: "https://sonusahuz.github.io/shopping-website",
     code_url: "https://github.com/sonusahuz/shopping-website",
   },
 ];
