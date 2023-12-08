@@ -43,7 +43,7 @@ export const socialMediaLink = [
 
 export default function Footer() {
   return (
-    <div className="flex items-center justify-center footer mt-40 mb-8">
+    <div className="flex items-center justify-center footer mt-36 mb-8">
       <div>
         <div>
           <h1 className="sonu text-center text-xl font-bold tracking-wider">

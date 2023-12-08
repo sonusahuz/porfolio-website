@@ -25,10 +25,10 @@ export default function Project({ showMenuBar, setShowMenuBar }: any) {
               <div className="flex items-center justify-between px-3 py-4">
                 <h1 className="text-xl font-medium">{item.project_name}</h1>
                 <div className="flex items-center justify-between gap-5">
-                  <a href={item.code_url}>
+                  <a href={item.code_url} target="_blank">
                     <AiFillGithub size={25} />
                   </a>
-                  <a href={item.url}>
+                  <a href={item.url} target="_blank">
                     <RiShareCircleFill size={25} />
                   </a>
                 </div>
