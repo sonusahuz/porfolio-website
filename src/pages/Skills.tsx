@@ -28,22 +28,22 @@ const skills = [
   {
     id: "4",
     icons: <BiLogoJavascript size={26} className=" text-yellow-600" />,
-    name: "Javascript",
+    name: "JavaScript",
   },
   {
     id: "5",
     icons: <BiLogoTypescript size={26} className=" text-blue-500" />,
-    name: "Typescript",
+    name: "TypeScript",
   },
   {
     id: "6",
     icons: <BiLogoReact size={26} className=" text-blue-500" />,
-    name: "React Js",
+    name: "React.js",
   },
   {
     id: "7",
     icons: <BiLogoNodejs size={26} className=" text-green-800" />,
-    name: "Node Js",
+    name: "Node.js",
   },
   {
     id: "8",
