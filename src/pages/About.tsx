@@ -11,7 +11,7 @@ export default function About({ showMenuBar, onClose }: any) {
           About Me.
         </h1>
         <p className="py-2 lg:leading-9 leading-7 tracking-normal text-[16px] lg:text-[18px]">
-          Hello! My name <span className="sonu font-medium">Sonu Sahu</span>,
+          Hello! My name is <span className="sonu font-medium">Sonu Sahu</span>,
           and I possess a deep passion for crafting and designing websites. My
           journey into web development began during my college days when I
           developed a blog website utilizing HTML, CSS, and JavaScript. This
