@@ -11,16 +11,17 @@ export default function About({ showMenuBar, onClose }: any) {
           About Me.
         </h1>
         <p className="py-2 lg:leading-9 leading-7 tracking-normal text-[16px] lg:text-[18px]">
-          Hello! My name is <span className="sonu font-medium">Sonu Sahu</span>
-          {} I have a great passion for creating and designing websites. I
-          started my web development career during my college days. I created a
-          blog website using HTML, CSS, and JavaScript and I used these three
-          technologies to create many websites. This increased my interest in
-          programming.
+          Hello! My name <span className="sonu font-medium">Sonu Sahu</span>,
+          and I possess a deep passion for crafting and designing websites. My
+          journey into web development began during my college days when I
+          developed a blog website utilizing HTML, CSS, and JavaScript. This
+          experience significantly amplified my interest in programming.
         </p>
         <p className="py-2 lg:leading-9 leading-7 text-[16px] lg:text-[18px]">
-          Additionally, I have also learned more technologies such as React.js which is a
-          JavaScript library for building user interfaces. Using this library I have created many projects such as social media applications, e-commerce websites and many more.
+          Additionally, I have also learned more technologies such as React.js
+          which is a JavaScript library for building user interfaces. Using this
+          library I have created many projects such as social media website,
+          e-commerce website and many more projects.
         </p>
       </div>
     </div>
