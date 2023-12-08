@@ -20,7 +20,7 @@ const skills = [
     icons: <DiCss3 size={26} className=" text-blue-600" />,
     name: "CSS",
   },
-    {
+  {
     id: "3",
     icons: <SiTailwindcss size={26} className="text-[#3b82f680]" />,
     name: "Tailwind CSS",
