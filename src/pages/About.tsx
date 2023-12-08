@@ -19,11 +19,8 @@ export default function About({ showMenuBar, onClose }: any) {
           programming.
         </p>
         <p className="py-2 lg:leading-9 leading-7 text-[16px] lg:text-[18px]">
-          Additionally, I've learned more technologies like React JS which is a
-          JavaScript library for building user interfaces. I've made several
-          projects using react js such as e-commerce website, Instagram and
-          Netflix clones, and many other projects. I've learned a lot and my
-          interest in coding has grown tremendously.
+          Additionally, I have also learned more technologies such as React.js which is a
+          JavaScript library for building user interfaces. Using this library I have created many projects such as social media applications, e-commerce websites and many more.
         </p>
       </div>
     </div>
