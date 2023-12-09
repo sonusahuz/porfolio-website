@@ -20,7 +20,7 @@ export const socialMediaLink = [
   {
     id: "3",
     icons: (
-      <a href="https://www.linkedin.com/in/sonusahuz/" target="_blank">
+      <a href="https://www.linkedin.com/in/sonusahu" target="_blank">
         <AiFillLinkedin
           className="cursor-pointer  hover:text-blue-600"
           size={22}
@@ -43,7 +43,7 @@ export const socialMediaLink = [
 
 export default function Footer() {
   return (
-    <div className="flex items-center justify-center footer mt-36 mb-8">
+    <div className="flex items-center justify-center footer lg:mt-36 mt-32 mb-8">
       <div>
         <div>
           <h1 className="sonu text-center text-xl font-bold tracking-wider">
@@ -61,7 +61,7 @@ export default function Footer() {
           <h1 className="text-xs tracking-wider">
             Design & Built by{" "}
             <a
-              href="https://www.linkedin.com/in/sonusahuz/"
+              href="https://www.linkedin.com/in/sonusahu"
               className=" text-deep-purple-700"
             >
               <span className="sonu"> Sonu Sahu</span>
