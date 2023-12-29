@@ -2,6 +2,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { FaGithub } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs, TbBrandRedux } from "react-icons/tb";
 import {
   BiLogoJavascript,
   BiLogoNodejs,
@@ -12,27 +13,27 @@ import {
 const skills = [
   {
     id: "1",
-    icons: <AiFillHtml5 size={26} className=" text-red-400" />,
+    icons: <AiFillHtml5 size={26} className=" text-[#dd4b25]" />,
     name: "HTML",
   },
   {
     id: "2",
-    icons: <DiCss3 size={26} className=" text-blue-600" />,
+    icons: <DiCss3 size={26} className=" text-[#0068ba]" />,
     name: "CSS",
   },
   {
     id: "3",
-    icons: <SiTailwindcss size={26} className="text-[#3b82f680]" />,
+    icons: <SiTailwindcss size={26} className="text-[#38bdf8]" />,
     name: "Tailwind CSS",
   },
   {
     id: "4",
-    icons: <BiLogoJavascript size={26} className=" text-yellow-600" />,
+    icons: <BiLogoJavascript size={26} className=" text-[#efd81d]" />,
     name: "JavaScript",
   },
   {
     id: "5",
-    icons: <BiLogoTypescript size={26} className=" text-blue-500" />,
+    icons: <BiLogoTypescript size={26} className=" text-[#2d79c7]" />,
     name: "TypeScript",
   },
   {
@@ -42,11 +43,21 @@ const skills = [
   },
   {
     id: "7",
+    icons: <TbBrandNextjs size={26} className=" text-white" />,
+    name: "Next.js",
+  },
+  {
+    id: "8",
     icons: <BiLogoNodejs size={26} className=" text-green-800" />,
     name: "Node.js",
   },
   {
-    id: "8",
+    id: "9",
+    icons: <TbBrandRedux size={26} className=" text-[#ba8fff]" />,
+    name: "Redux",
+  },
+  {
+    id: "10",
     icons: <FaGithub size={26} />,
     name: "Git & GitHub",
   },
