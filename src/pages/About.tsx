@@ -25,7 +25,7 @@ export default function About({ showMenuBar }: any) {
           other websites.
         </p>
         <p className="py-2 lg:leading-9 leading-7 text-[16px] lg:text-[18px]">
-          Currently, I work as a frontend developer, creating websites and
+          Currently, I work as a full stack developer, creating websites and
           applications.
         </p>
       </div>
